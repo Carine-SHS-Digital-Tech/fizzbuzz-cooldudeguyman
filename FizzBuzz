@@ -1,0 +1,11 @@
+num = 0.0
+while num != 100:
+    num = num + 1
+    if (num/3).is_integer() and (num/5).is_integer():
+        print("FizzBuzz")
+    elif (num/3).is_integer():
+        print("Fizz")
+    elif(num/5).is_integer():
+        print("buzz")
+    else:
+        print(num)
